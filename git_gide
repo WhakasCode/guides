@@ -1,4 +1,7 @@
 git init (creamos git en la carpeta en la que estamos)
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
 git status (vemos que nos falta por modificar)
 git add "ruta de archivo"(añadir)
 git commit -m "Mensaje" (guarda los cambios con un comentario)
