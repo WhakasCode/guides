@@ -1,0 +1,15 @@
+git init (creamos git en la carpeta en la que estamos)
+git status (vemos que nos falta por modificar)
+git add "ruta de archivo"(añadir)
+git commit -m "Mensaje" (guarda los cambios con un comentario)
+git log (ver los commits del proyecto)
+git checkout "codigocommit"( viajar entre commits)
+git reset --(soft o hard) (borra commit)
+
+
+git remote add origin "link del proyecto"(Enlaza poryecto local con remoto)
+git remote rename "name1" "name2"( cambiar nombre del remoto)
+git remote show "name" ( ver más información del remoto )
+
+
+git push origin master (sube los cambios al remoto)
